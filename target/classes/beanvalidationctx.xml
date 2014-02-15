@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean class="be.rd.beans.Contact" name="contactA">
+		<property name="firstName" value="Ruben"/>
+		<property name="lastName" value="Demuynck"/>
+	</bean>
+	<bean class="be.rd.beans.Contact" name="contactB">
+		<property name="firstName" value="Burt"/>
+	</bean>
+	
+	<bean class="be.rd.beans.ContactValidator" name="validator"/>
+	
+</beans>
